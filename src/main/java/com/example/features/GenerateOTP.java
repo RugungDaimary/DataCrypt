@@ -77,7 +77,7 @@ public class GenerateOTP extends HttpServlet {
                 //Send email
                 try {
                     Dotenv dotenv = Dotenv.configure()
-                            .directory("/Users/rugungdaimary/Desktop/DataCrypt/src/main/resources")
+                            .directory("/Users/rugungdaimary/Desktop/Minor_project/DataCrypt/src/main/resources")
                             .load();
                     userName = dotenv.get("MAIL_USERNAME");
                     password = dotenv.get("MAIL_PASSWORD");

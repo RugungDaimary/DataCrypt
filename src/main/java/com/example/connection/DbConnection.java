@@ -13,7 +13,7 @@ public class DbConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             Dotenv dotenv = Dotenv.configure()
-                    .directory("/Users/rugungdaimary/Desktop/DataCrypt/src/main/resources")
+                    .directory("/Users/rugungdaimary/Desktop/Minor_project/DataCrypt/src/main/resources")
                     .load();
             String db_url = dotenv.get("DB_URL");
             String db_username = dotenv.get("DB_USERNAME");

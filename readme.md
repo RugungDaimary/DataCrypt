@@ -147,14 +147,6 @@ ECC is used in the project to:
 5. **Secure Communication:**
     - The secret key is transferred securely using the ECC-based protocol.
 
----
-
-## How to Contribute
-
-1. Fork the repository.
-2. Make your changes and ensure that they follow Java best practices.
-3. Test your changes.
-4. Create a PR (Pull Request) with detailed descriptions of modifications.
 
 ---
 
@@ -164,17 +156,3 @@ ECC is used in the project to:
 - Implement token-based authentication for enhanced security.
 - Add AES-256 encryption validation and comprehensive exception handling.
 - Improve database query performance using optimizations and ORM frameworks.
-
----
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## Author
-
-- **Your Name/Team**
-- [your.email@example.com](mailto:your.email@example.com)
-- [GitHub Profile](https://github.com/your-profile)
